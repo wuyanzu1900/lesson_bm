@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" 
   content="initial-scale=0.5,maximum-scale=0.5, minimum-scale=0.5,width=device-width, height=device-height, user-scalable=no">
-  <title>Document</title>
+  <title>美团</title>
   <!-- sdk -->
   <script type="text/javascript" 
   src="https://api.map.baidu.com/api?v=2.0&ak=47FQtS6XkphGqmZ5nSEj6WTSTwE8SGaT"></script>
@@ -64,6 +64,10 @@
       color: #666666;
       letter-spacing: 0.2px;
     }
+    .poi-item-wrapper .poi-info .star{
+      width: 36px;
+      height: 36px;
+    }
   </style>
 </head>
 <body>
@@ -72,15 +76,31 @@
   <div class="shop-list">
     <div class="poi-item-wrapper">
       <div class="poi-info-wrapper">
+        
         <div class="image-wrapper">
+    
           <div class="imgbox">
-            <img src="http://p0.meituan.net/deal/__45899142__3351739.jpg@320w_320h_1e_1c" alt="">
+            <a href="https://nc.meituan.com/s/%E8%82%AF%E5%BE%B7%E5%9F%BA/"><img src="http://p0.meituan.net/deal/__45899142__3351739.jpg@320w_320h_1e_1c" alt=""></a>
           </div>
         </div>
         <div class="poi-info">
-          <div class="poi-name"></div>
+          
+          <div class="poi-name">
+          </div>
           <div class="price-wrapper">
-            <div class="location"></div>
+            <div class="star">
+              <a href="https://nc.meituan.com/s/%E8%82%AF%E5%BE%B7%E5%9F%BA/"><img src="image/001.png"></a>
+              <a href="https://nc.meituan.com/s/%E8%82%AF%E5%BE%B7%E5%9F%BA/"><img src="image/001.png"></a>
+              <a href="https://nc.meituan.com/s/%E8%82%AF%E5%BE%B7%E5%9F%BA/"><img src="image/001.png"></a>
+              <a href="https://nc.meituan.com/s/%E8%82%AF%E5%BE%B7%E5%9F%BA/"><img src="image/001.png"></a>
+              <a href="https://nc.meituan.com/s/%E8%82%AF%E5%BE%B7%E5%9F%BA/"><img src="image/002.png"></a>
+              <div class="price">
+                <a href="https://www.meituan.com/meishi/52074178/">人均30￥</a>
+              </div>
+            </div>
+            <div class="location">
+            
+            </div>
           </div>
         </div>
       </div>
@@ -95,8 +115,9 @@
   // 2. 点 经纬度
   // 115.941546,28.544622
   // 命名规范
-  const myLatitude = '28.544622',
-    myLongitude = '115.941546',
+  // 115.952477,28.549562
+  const myLatitude = '28.557680',
+    myLongitude = ' 115.952477',
     kfcLatitude = '28.549066',
     kfcLongitude = '115.950531' ;
   
