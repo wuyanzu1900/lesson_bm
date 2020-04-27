@@ -8,10 +8,10 @@ function f(n){
      prepre = 1;
     // 递归可以优化成循环
      for(let i = 3;i <=n;i++){
-         ret = pre + prepre;
-         prepre = pre;
-         pre = ret;
+         ret = pre + prepre;//3 5 8 13 21 
+         prepre = pre;//2 3 5 8 13
+         pre = ret;//3 5 8 13 21
      }
-    return ret;
+    return ret;//5
 }
-console.log(f(2));
+console.log(f(100));

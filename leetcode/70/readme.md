@@ -23,3 +23,5 @@
 
 3. npm i -g nodemon 安装命令
     nodemon .\index.js执行命令
+
+会有很多的重复计算，会浪费空间
