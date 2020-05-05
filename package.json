@@ -1,15 +1,15 @@
 {
-  "name": "car",
+  "name": "douban-spider",
   "version": "1.0.0",
-  "description": "\"做汽检测车项目,给任何图片可以识别车的型号以及车牌号",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "AI",
-    "node"
-  ],
-  "author": "zhuming",
-  "license": "ISC"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
 }
