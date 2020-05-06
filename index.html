@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* css 4引入了variable 的概念 */
+        /* 喜欢面试底层，以及新的技术点，并能深入实验 */
+        :root{/*根上*/
+            --bgcolor:blue; /*可以复用*/
+            --color:red;
+        }
+        p{
+            color:var(--color);/*var使用变量*/
+        }
+        div{
+            background-color: var(--bgcolor);
+            color: var(--color);
+        }
+    </style>
+</head>
+<body>
+    <p>吴彦祖</p>
+    <div>彭于晏</div>
+</body>
+</html>
